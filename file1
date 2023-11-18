@@ -1,3 +1,9 @@
 Hi vinod how are you this si my first commit
 
+<<<<<<< HEAD
 use this
+=======
+usethis
+
+newcomit check
+>>>>>>> 98a5104067f84b9165a85adabbd1922860dbc71c
