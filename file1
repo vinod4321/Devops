@@ -1,1 +1,14 @@
 Hi vinod how are you this si my first commit
+<<<<<<< HEAD
+=======
+
+<<<<<<< HEAD
+use this
+=======
+usethis
+
+newcomit check
+>>>>>>> 98a5104067f84b9165a85adabbd1922860dbc71c
+
+help help help
+>>>>>>> 24ef39d2fc9ba4963f22d903b6e6c586c650e701
