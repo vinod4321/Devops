@@ -21,7 +21,7 @@ i
         stage('Deploy to Tomcat Server') {
             steps {
                 script {
-                    deploy adapters: [tomcat9(credentialsId: 'tomcatcreds', path: '', url: 'http://43.205.216.229:8082/'], contextPath: null, war: '**/*.war'
+                    deploy adapters: [tomcat9(credentialsId: 'tomcatcreds', path: '/opt/apache-tomcat-9.0.96/webapps/', url: 'http://43.205.216.229:8082/'], contextPath: null, war: '**/*.war'
                 }
             }
         }
