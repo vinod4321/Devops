@@ -17,11 +17,11 @@ pipeline {
                 }
             }
         }
-
+i
         stage('Deploy to Tomcat Server') {
             steps {
                 script {
-                    deploy adapters: [tomcat9(credentialsId: 'tomat1', path: '', url: 'http://43.204.120.90:8082/')], contextPath: null, war: '**/*.war'
+                    deploy adapters: [tomcat9(credentialsId: 'tomcatcreds', path: '', url: 'http://43.205.216.229:8082/'], contextPath: null, war: '**/*.war'
                 }
             }
         }
